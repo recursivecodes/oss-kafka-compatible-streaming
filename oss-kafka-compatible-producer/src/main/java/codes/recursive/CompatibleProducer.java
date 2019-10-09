@@ -13,7 +13,7 @@ public class CompatibleProducer {
     public void produce() {
         String authToken = System.getenv("AUTH_TOKEN");
         String tenancyName = System.getenv("TENANCY_NAME");
-        String username = System.getenv("USERNAME");
+        String username = System.getenv("STREAMING_USERNAME");
         String compartmentId = System.getenv("COMPARTMENT_ID");
         String topicName = System.getenv("TOPIC_NAME");
 
