@@ -1,0 +1,6 @@
+rootProject.name = 'oss-kafka-compatible-streaming'
+include 'oss-kafka-compatible-producer'
+findProject(':oss-kafka-compatible-producer')?.name = 'producer'
+include 'oss-kafka-compatible-consumer'
+findProject(':oss-kafka-compatible-consumer')?.name = 'consumer'
+
